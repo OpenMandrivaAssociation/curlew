@@ -8,7 +8,7 @@ Url:     http://gtk-apps.org/content/show.php/Curlew?content=155664&PHPSESSID=e6
 Source:  curlew-%{version}.tar.gz
 Group:   Video
 BuildArch:	noarch
-BuildRequires: python xdg-utils python-setuptools python-distutils-extra intltool imagemagick
+BuildRequires: python xdg-utils python-setuptools intltool imagemagick
 Requires:      ffmpeg mencoder python xdg-utils ffmpeg
 BuildRequires: python-gobject3-devel
 Requires:      python-gi

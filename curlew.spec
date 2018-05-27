@@ -1,18 +1,19 @@
 Name:    curlew
-Version: 0.2.2
+Version: 0.2.5
 Release: 1
 Summary: Curlew multimedia converter
 License: Waqf
-Url:     http://gtk-apps.org/content/show.php/Curlew?content=155664&PHPSESSID=e679b8e6ba032e740d2a654d05d3ac5b
+Url:     https://curlew.sourceforge.io/
 #Url:    https://github.com/chamfay/Curlew
-Source:  curlew-%{version}.tar.gz
+Source:  https://sourceforge.net/projects/%{name}/files/%{name}-%{version}/%{name}-%{version}.tar.gz
 Group:   Video
 BuildArch:	noarch
 BuildRequires: python xdg-utils python-setuptools intltool imagemagick
 BuildRequires: librsvg
 Requires:      ffmpeg mencoder python xdg-utils ffmpeg
-BuildRequires: python-gobject3-devel
-Requires:      python-gi
+#BuildRequires: python-gobject3-devel
+BuildRequires:  pkgconfig(pygobject-3.0)
+Requires:      python3egg(pygobject)
 
 %description
 Easy to use, Free and Open-Source Multimedia converter for Linux.

@@ -13,7 +13,7 @@ BuildRequires: librsvg
 Requires:      ffmpeg mencoder python xdg-utils ffmpeg
 #BuildRequires: python-gobject3-devel
 BuildRequires:  pkgconfig(pygobject-3.0)
-Requires:      python-gi
+Requires:      python3egg(pygobject)
 
 %description
 Easy to use, Free and Open-Source Multimedia converter for Linux.

@@ -1,11 +1,11 @@
 Name:    curlew
-Version: 0.2.2
+Version: 0.2.5
 Release: 1
 Summary: Curlew multimedia converter
 License: Waqf
-Url:     http://gtk-apps.org/content/show.php/Curlew?content=155664&PHPSESSID=e679b8e6ba032e740d2a654d05d3ac5b
+Url:     https://curlew.sourceforge.io/
 #Url:    https://github.com/chamfay/Curlew
-Source:  curlew-%{version}.tar.gz
+Source:  https://sourceforge.net/projects/%{name}/files/%{name}-%{version}/%{name}-%{version}.tar.gz
 Group:   Video
 BuildArch:	noarch
 BuildRequires: python xdg-utils python-setuptools intltool imagemagick

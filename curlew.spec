@@ -11,7 +11,8 @@ BuildArch:	noarch
 BuildRequires: python xdg-utils python-setuptools intltool imagemagick
 BuildRequires: librsvg
 Requires:      ffmpeg mencoder python xdg-utils ffmpeg
-BuildRequires: python-gobject3-devel
+#BuildRequires: python-gobject3-devel
+BuildRequires:  pkgconfig(pygobject-3.0)
 Requires:      python-gi
 
 %description

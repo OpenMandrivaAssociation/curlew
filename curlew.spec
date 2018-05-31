@@ -1,6 +1,6 @@
 Name:    curlew
 Version: 0.2.5
-Release: 1
+Release: 2
 Summary: Curlew multimedia converter
 License: Waqf
 Url:     https://curlew.sourceforge.io/
